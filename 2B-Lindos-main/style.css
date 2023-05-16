@@ -56,7 +56,8 @@ body {
 .turma-imagem-alunos {
     width:20%;
     height:20%;
-    padding: 20px;
+    padding: 20px
+    ;
     border-radius: 50px;
 }
 
@@ -73,8 +74,30 @@ body {
 .estudante-foto {
     width:120px;
 }
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 25px 0;
+}
+
 .estudante-todos {
     display:grid;
     grid-template-columns: 25% 25% 25% 25%
 
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
 }
